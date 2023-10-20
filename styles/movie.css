@@ -1,0 +1,36 @@
+.video-grid {
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 10px;
+    padding: 0px 3rem;
+
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.classification1 {
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.classification2 {
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.thumbnail {
+    padding: 0px;
+    width: 100%;
+
+}
+
+.video-preview {
+    position: relative;
+}
+
+.video-preview:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.5);
+}
