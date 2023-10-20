@@ -15,7 +15,7 @@ body {
     &::-webkit-scrollbar-track {
         background-color: rgba(0, 0, 0, 0);
     }
-
+    
     &::-webkit-scrollbar-thumb {
         background: rgb(151, 151, 151);
         border-radius: 10px;
