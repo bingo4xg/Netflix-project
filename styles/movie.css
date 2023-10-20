@@ -28,6 +28,7 @@
 
 .video-preview {
     position: relative;
+    cursor: pointer;
 }
 
 .video-preview:hover{
